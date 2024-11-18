@@ -1,11 +1,11 @@
 package com.yk.pack4String;
 
-public class Less14StrBuilderBufferRunner {
+public class Less13StrBuilder {
 
     public static void main(String[] args) {
-        Less14StrBuilderBufferRunner less14StrBuilderBufferRunner = new Less14StrBuilderBufferRunner();
-        less14StrBuilderBufferRunner.callUsualString();
-        less14StrBuilderBufferRunner.callStringBuilder();
+        Less13StrBuilder less13StrBuilder = new Less13StrBuilder();
+        less13StrBuilder.callUsualString();
+        less13StrBuilder.callStringBuilder();
     }
 
     public void callUsualString() {
