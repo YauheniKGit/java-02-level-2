@@ -1,6 +1,8 @@
 package com.yk.pack5OOPPrinciples;
 
-public class Less23Archer extends Less23Hero {
+import com.yk.pack6Generics.weapon.Less27RangeWeapon;
+
+public class Less23Archer<T extends Less27RangeWeapon> extends Less23Hero<T> {
 
     private Wolf wolf;
 
