@@ -1,9 +1,12 @@
 package com.yk.pack5OOPPrinciples;
 
-public abstract class Less23Hero {
+import com.yk.pack6Generics.weapon.Less27Weapon;
+
+public abstract class Less23Hero<T extends Less27Weapon> {
 
     private final String name;
     private final int damage;
+    private T weapon;
 
     public Less23Hero(String name, int damage) {
         this.name = name;
@@ -20,4 +23,11 @@ public abstract class Less23Hero {
         return damage;
     }
 
+    public T getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(T weapon) {
+        this.weapon = weapon;
+    }
 }

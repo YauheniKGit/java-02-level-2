@@ -1,6 +1,8 @@
 package com.yk.pack5OOPPrinciples;
 
-public class Less23Mage extends Less23Hero {
+import com.yk.pack6Generics.weapon.Less27MagicWeapon;
+
+public class Less23Mage<T extends Less27MagicWeapon> extends Less23Hero<T> {
 
     public Less23Mage(String name, int damage) {
         super(name, damage);
