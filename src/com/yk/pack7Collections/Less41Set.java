@@ -7,12 +7,13 @@ public class Less41Set {
 
     public static void main(String[] args) {
         Set<String> set = new LinkedHashSet<>();
-        set.add("aaa");
+        set.add("aaa"); 
         set.add("aaa");
         set.add("bbb");
         set.add("ccc");
 
         System.out.println(set);
+        System.out.println("Changes from Jack");
 
     }
 
