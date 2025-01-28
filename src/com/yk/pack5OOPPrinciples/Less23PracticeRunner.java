@@ -12,6 +12,10 @@ public class Less23PracticeRunner {
         Less23Enemy ork = new Less23Enemy("Ork", 100);
 
         checkAttack(ork, warriorAragorn, mageGendolf, archerLegalas);
+
+        Less23Mortalable less23Enemy = new Less23Enemy("Name", 12);
+        less23Enemy.isAlive();
+
     }
 
     public static void checkAttack(Less23Enemy enemy, Less23Hero... heroes) {

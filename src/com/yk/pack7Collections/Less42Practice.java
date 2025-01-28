@@ -9,13 +9,13 @@ public class Less42Practice {
         Less42Practice less42Practice = new Less42Practice();
 
         //Task1
-//        List<Integer> list = List.of(1, 3, 6, 8, 9, 13, 20);
-//        List<Integer> arrayList = new ArrayList<>(Arrays.asList(1, 3, 6, 8, 9, 13, 20));
+//        ProducerThread<Integer> list = ProducerThread.of(1, 3, 6, 8, 9, 13, 20);
+//        ProducerThread<Integer> arrayList = new ArrayList<>(Arrays.asList(1, 3, 6, 8, 9, 13, 20));
 //        System.out.println(less42Practice.removeEvenNumbers(arrayList));
 
         //Task2
-//        List<Integer> integers = List.of(3, 7, 3, -1, 2, 3, 7, 2, 15, 15);
-//        List<Integer> listEmpty = List.of();
+//        ProducerThread<Integer> integers = ProducerThread.of(3, 7, 3, -1, 2, 3, 7, 2, 15, 15);
+//        ProducerThread<Integer> listEmpty = ProducerThread.of();
 //        System.out.println(less42Practice.countUnique(integers));
 
         //Task3
