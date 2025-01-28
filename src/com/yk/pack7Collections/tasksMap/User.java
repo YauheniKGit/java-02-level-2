@@ -7,7 +7,7 @@ public record User(String login, String password, LocalDate createDate) {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "UserLombok{" +
                 "login='" + login + '\'' +
                 ", password='" + password + '\'' +
                 ", createDate='" + createDate + '\'' +

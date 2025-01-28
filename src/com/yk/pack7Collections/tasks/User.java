@@ -30,7 +30,7 @@ public class User implements Comparable<User> {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "UserLombok{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';

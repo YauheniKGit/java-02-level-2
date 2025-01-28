@@ -8,11 +8,11 @@ public class Manager {
 
     public boolean addNewUser(User user) {
         if (userMap.containsKey(user.login())) {
-            System.out.println("User with login - " + user.login() + " - already exists");
+            System.out.println("UserLombok with login - " + user.login() + " - already exists");
             return false;
         }
         userMap.put(user.login(), user);
-        System.out.println("User added - " + user.login());
+        System.out.println("UserLombok added - " + user.login());
         return true;
     }
 
@@ -30,7 +30,7 @@ public class Manager {
     public boolean deleteUser(String login) {
         if (userMap.containsKey(login)) {
             userMap.remove(login);
-            System.out.println("User deleted - " + login);
+            System.out.println("UserLombok deleted - " + login);
             return true;
         }
         System.out.println("Login does not exists - " + login);
@@ -40,10 +40,10 @@ public class Manager {
     public boolean editUser(User user) {
         if (userMap.containsKey(user.login())) {
             userMap.put(user.login(), user);
-            System.out.println("User updated successfully - " + user.login());
+            System.out.println("UserLombok updated successfully - " + user.login());
             return true;
         }
-        System.out.println("User with login does not exist - " + user.login());
+        System.out.println("UserLombok with login does not exist - " + user.login());
         return false;
     }
 

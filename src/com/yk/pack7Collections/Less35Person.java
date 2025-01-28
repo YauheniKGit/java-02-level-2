@@ -1,11 +1,16 @@
 package com.yk.pack7Collections;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Less35Person {
+public class Less35Person implements Serializable {
+
+    @Serial
+    private static final long serialVersionUID = 1L;
 
     private int id;
-    private String firstName;
+    private transient String firstName;
     private String lastName;
 
     public Less35Person(int id, String firstName, String lastName) {
